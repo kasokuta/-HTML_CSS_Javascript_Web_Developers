@@ -1,17 +1,44 @@
+.content{
+	background-color: gray;
+}
+
+.title {
+
+}
+
 /* Desktop */
 @media (min-width: 992px) 
 {
+	.content{
+		max-width: 33%;
+		float: left;
+	}
   
 }
 
 /* Tablets */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px)
 {
-  
+
+  #chicken, #beef {
+  	max-width: 50%;
+  	float: left;
+  }
+
+  #sushi{
+	max-width: 100%;
+	float: none;
+  }
+
 }
 
 /* Mobile */
 @media (max-width: 767px) {
+
+	.content{
+		max-width: 100%;
+		float: none;
+	}
 
 }
 
